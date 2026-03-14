@@ -1,0 +1,8 @@
+#Use k instead kubectl
+alias k='kubectl'
+#Use bash completion across the environment
+source /etc/bash_completion # not needed on macos
+#Use bash completion with kubectl
+source <(kubectl completion bash)
+#Use bash completion with k command
+complete -o default -F __start_kubectl k
