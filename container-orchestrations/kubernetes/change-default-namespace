@@ -1,0 +1,2 @@
+# Using the below command namespace can be changed while maintaining the current context
+kubectl config set-context --current --namespace=<namespace>
